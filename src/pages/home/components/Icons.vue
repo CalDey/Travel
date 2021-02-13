@@ -104,12 +104,12 @@ export default {
       .icon-img-content
         display: block
         margin: 0 auto
-        height: 76%
+        height: 90%
       .icon-desc
         position: absolute
         left: 0
         right: 0
-        bottom: 0
+        bottom: -.22rem
         height: .44rem
         line-height: .44rem
         color: $darkTextColor
