@@ -2,7 +2,7 @@
   <div class="wrapper">
     <swiper :options="swiperOption">
     <swiper-slide v-for="item of swiperList" :key="item.id">
-      <img class="swiper-img" :src="item.imgUrl" alt="">
+      <img class="swiper-img" :src="item.imgUrl">
     </swiper-slide>
     <div class="swiper-pagination"  slot="pagination"></div>
   </swiper>
@@ -27,7 +27,7 @@ export default {
         imgUrl: 'http://imgs.qunarzz.com/vs_ceph_vcimg/f7813c9431796cc32ae7b7a78447342e.jpeg'
       },
       {
-        id: '0002',
+        id: '0003',
         imgUrl: 'http://imgs.qunarzz.com/vs_ceph_vcimg/f03f5ac90ae59d0d9c6332a2bfd9782e.jpeg'
       }]
     }
