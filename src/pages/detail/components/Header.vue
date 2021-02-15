@@ -38,6 +38,10 @@ export default {
   },
   activated () {
     window.addEventListener('scroll', this.handleScroll)
+  },
+  // 全局事件解绑
+  deactivated () {
+    window.removeEventLister('scroll', this.handleScroll)
   }
 }
 </script>
