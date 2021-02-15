@@ -41,7 +41,7 @@ export default {
   },
   // 全局事件解绑
   deactivated () {
-    window.removeEventLister('scroll', this.handleScroll)
+    window.removeEventListener('scroll', this.handleScroll)
   }
 }
 </script>
@@ -62,6 +62,7 @@ export default {
       color: #fff
       font-size: .4rem
   .header-fixed
+    z-index: 2
     position: fixed
     top: 0
     left: 0
